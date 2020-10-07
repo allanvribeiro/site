@@ -16,7 +16,7 @@ const Menu = (props) => {
 
         <HashRouter basename={process.env.PUBLIC_URL}>
 
-            <Navbar bg="dark" variant="dark">
+            {/* <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="/">
                     <img
                         alt=""
@@ -39,7 +39,7 @@ const Menu = (props) => {
                         <Link className="nav-link" to="/contact">Contactez-moi</Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
             <Switch>
                 <Route exact path="/" component={App} />
                 <Route path="/about" component={About} />
