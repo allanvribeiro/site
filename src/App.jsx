@@ -19,7 +19,7 @@ function App() {
         <a className="iconsn" href="https://www.linkedin.com/in/allanvribeiro/">
           <AiOutlineLinkedin size={'50px'}/>
         </a>
-        <a className="iconsn" href="https://twitter.com/allanvribeiro">
+        <a className="iconsn" href="https://dev.to/allanvribeiro">
           <SiDevdotto size={'50px'}/>
         </a>
       </div>
