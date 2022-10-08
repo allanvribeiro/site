@@ -11,10 +11,17 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: rgb(192, 192, 192);
+  font-size: 1.5em;
 }
 
 
 .iconsn {
   padding: 0.5em;
+}
+
+@media (prefers-color-scheme: light) {
+  .read-the-docs {
+    color: #575757;
+  }
 }

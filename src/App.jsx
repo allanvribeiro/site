@@ -1,15 +1,15 @@
 import "./App.css";
-import Profile from './assets/profile.jpeg'; 
+import Profile from './assets/profile.jpg'; 
 import {TbBrandTwitter} from 'react-icons/tb';
 import {AiOutlineLinkedin} from 'react-icons/ai';
-import {SiDevdotto} from 'react-icons/si';
+import {SiDevdotto, SiGithub} from 'react-icons/si';
 
 function App() {
 
   return (
     <div className="App">
       <div>
-        <img style={{borderRadius: '35%'}} boxSize='175px' src={Profile} alt="Foto de Allan Vieira Ribeiro"/>
+        <img style={{borderRadius: '35%'}} width='200px' height='200px' src={Profile} alt="Foto de Allan Vieira Ribeiro"/>
       </div>
       <h1>Allan Vieira Ribeiro</h1>
       <div className="card">
@@ -21,6 +21,9 @@ function App() {
         </a>
         <a className="iconsn" href="https://dev.to/allanvribeiro">
           <SiDevdotto size={'50px'}/>
+        </a>
+        <a className="iconsn" href="https://github.com/allanvribeiro">
+          <SiGithub size={'50px'}/>
         </a>
       </div>
       <p className="read-the-docs">
