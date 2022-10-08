@@ -13,16 +13,16 @@ function App() {
       </div>
       <h1>Allan Vieira Ribeiro</h1>
       <div className="card">
-        <a className="iconsn" href="https://twitter.com/allanvribeiro">
+        <a className="iconsn" href="https://twitter.com/allanvribeiro" aria-label="Twitter">
           <TbBrandTwitter size={'50px'}/>
         </a>
-        <a className="iconsn" href="https://www.linkedin.com/in/allanvribeiro/">
+        <a className="iconsn" href="https://www.linkedin.com/in/allanvribeiro/" aria-label="Linkedin">
           <AiOutlineLinkedin size={'50px'}/>
         </a>
-        <a className="iconsn" href="https://dev.to/allanvribeiro">
+        <a className="iconsn" href="https://dev.to/allanvribeiro" aria-label="Blog no DEV.to">
           <SiDevdotto size={'50px'}/>
         </a>
-        <a className="iconsn" href="https://github.com/allanvribeiro">
+        <a className="iconsn" href="https://github.com/allanvribeiro" aria-label="Github">
           <SiGithub size={'50px'}/>
         </a>
       </div>
